@@ -10,11 +10,8 @@ public class Log {
             if (!threadToLogsMap.containsKey(threadName)){
                 threadToLogsMap.put(threadName, new ArrayList<String>());
             }
-            ArrayList<String> messages = new ArrayList<String>(threadToLogsMap.get(threadName));
-
-
+            ArrayList<String> messages = threadToLogsMap.get(threadName);
             messages.add(message);
-//        System.out.println("<ANTEST1" + "  " + messages.toString());
 
         threadToLogsMap.put(threadName,messages);
     }
@@ -38,18 +35,24 @@ public class Log {
                 line[j] = message;
             }
         }
-        System.out.println();
+        System.out.println(String.format("%20s","threadNames"));
 
         for (String s : keys) {
-            System.out.print(String.format("%50s ", s));
+            System.out.print(String.format("%50s", s));
         }
         System.out.println();
+
+        System.out.println(String.format("%20s ","Tasks"));
+        System.out.println();
+
         for(String[] line : lines){
             for (String s : line) {
                 System.out.print(String.format("%50s ", s));
             }
             System.out.println();
         }
+        System.out.println();
+        System.out.println();
 
 
     }
