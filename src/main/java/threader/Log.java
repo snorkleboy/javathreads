@@ -1,4 +1,4 @@
-package Threader;
+package threader;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
@@ -6,18 +6,16 @@ import java.util.Hashtable;
 public class Log {
     static private Hashtable<String, ArrayList<String>> threadToLogsMap = new Hashtable<String, ArrayList<String>>();
     public static void log(String threadName, String message){
-            if (!threadToLogsMap.containsKey(threadName)){
-                threadToLogsMap.put(threadName, new ArrayList<String>());
-            }
-            ArrayList<String> messages = threadToLogsMap.get(threadName);
-            messages.add(message);
-
+        if (!threadToLogsMap.containsKey(threadName)){
+            threadToLogsMap.put(threadName, new ArrayList<String>());
+        }
+        ArrayList<String> messages = threadToLogsMap.get(threadName);
+        messages.add(message);
         threadToLogsMap.put(threadName,messages);
     }
     public static void print(){
         ArrayList<String[]> lines = getLines();
         ArrayList<String> keys = new ArrayList<String>(threadToLogsMap.keySet());
-
         System.out.println("------------------------");
         System.out.println("------------------------");
         System.out.println(String.format("%20s","threadNames"));
@@ -37,14 +35,10 @@ public class Log {
         System.out.println("brought to you by " + Thread.currentThread().getName());
         System.out.println("------------------------");
         System.out.println("------------------------");
-
-
-
     }
     private static ArrayList<String[]> getLines(){
         ArrayList<String> keys = new ArrayList<String>(threadToLogsMap.keySet());
         ArrayList<String[]> lines = new ArrayList<String[]>();
-
         lines.add(keys.toArray(new String[keys.size()]));
         for (int j = 0; j<keys.size(); j++){
             String threadName = keys.get(j);
@@ -63,7 +57,5 @@ public class Log {
         }
         return lines;
     }
-
-
 
 }

@@ -1,6 +1,6 @@
-package Threader.Task;
+package threader.task;
 
-import Threader.Log;
+import threader.Log;
 
 import java.util.Queue;
 
@@ -27,7 +27,6 @@ public class Task implements Runnable{
         queue.add(this);
     }
     public void run(){
-        System.out.println("RUN TASK!!!");
         lam.run();
     }
     protected void sleep(int time){

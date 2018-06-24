@@ -1,6 +1,6 @@
-package Threader.Task.tasks;
+package threader.task.tasks;
 
-import Threader.Task.Task;
+import threader.task.Task;
 
 public class QueueCheckTask extends Task {
     //onyl task that doesnt put itself on the queue

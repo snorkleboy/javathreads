@@ -1,4 +1,4 @@
-package Threader.Task;
+package threader.task;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

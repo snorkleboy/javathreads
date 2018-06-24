@@ -1,11 +1,9 @@
-package Threader;
+package threader;
 
-import Threader.Task.TaskQueue;
-import Threader.Task.tasks.DirectoryScanTask;
-import Threader.Task.tasks.QueueCheckTask;
+import threader.task.tasks.DirectoryScanTask;
+import threader.task.tasks.QueueCheckTask;
 
 public class Main {
-
     public static void main(String[] args) {
         new DirectoryScanTask();
         new Thread(new QueueCheckTask(), "__THREAD_1_").start();

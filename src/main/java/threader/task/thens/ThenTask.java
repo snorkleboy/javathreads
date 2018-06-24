@@ -1,17 +1,17 @@
-package Threader.Task;
+package threader.task.thens;
 
 
-import Threader.Log;
+import threader.Log;
+import threader.task.Task;
+import threader.task.TaskQueue;
 
 import java.util.ArrayList;
 import java.util.Queue;
 
 
-interface Thenable<input>{
-    public Object run(input input);
-}
-public class ThenTask<input>{
-    protected static Queue<Threader.Task.Task> queue = TaskQueue.queue;
+
+public class ThenTask<input> extends Task {
+    protected static Queue<threader.task.Task> queue = TaskQueue.queue;
     protected static Log log = new Log();
     protected Thenable<input> lam;
 
