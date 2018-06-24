@@ -32,8 +32,11 @@ public class Log {
             }
         }
         System.out.format(keys.toString());
+        System.out.println("");
         for(String[] line : messageList){
             System.out.format(Arrays.toString(line));
+            System.out.println("");
+
         }
 
     }
