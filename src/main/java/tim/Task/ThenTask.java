@@ -1,11 +1,8 @@
-package tim.Task.tasks;
+package tim.Task;
 
 
 import tim.Log;
-import tim.Task.Task;
-import tim.Task.TaskQueue;
 
-import javax.lang.model.type.NullType;
 import java.util.ArrayList;
 import java.util.Queue;
 

@@ -13,31 +13,21 @@ public class Task implements Runnable{
 
     protected Runnable lam;
     public long time;
+
     protected Task(){}
     public Task(Runnable lambda){
-        setLam(lambda);
+        lam = lambda;
         time = System.currentTimeMillis();
     }
     public Task(Runnable lambda, long timeTo){
-        setLam(lambda);
+        lam = lambda;
         time = System.currentTimeMillis() + timeTo;
     }
-
-    protected void setLam(Runnable lambda){
-        lam = lambda;
-    }
     public void run(){
+        System.out.println("RUN TASK!!!");
         lam.run();
     }
 
-    ArrayList<Task> thenTasks = new ArrayList<Task>();
-    public Task then(Runnable lambda){
-        thenTasks.add(new Task(lambda));
-        return this;
-    }
-    public Task then(Task task){
-        thenTasks.add(task);
-        return this;
-    }
+
 }
 
