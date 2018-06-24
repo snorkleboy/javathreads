@@ -1,4 +1,4 @@
-package tim.Task;
+package tim;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -35,6 +35,8 @@ public class Log {
                 line[j] = message;
             }
         }
+        System.out.println("------------------------");
+        System.out.println("------------------------");
         System.out.println(String.format("%20s","threadNames"));
 
         for (String s : keys) {
@@ -52,7 +54,10 @@ public class Log {
             System.out.println();
         }
         System.out.println();
-        System.out.println();
+        System.out.println("brought to you by " + Thread.currentThread().getName());
+        System.out.println("------------------------");
+        System.out.println("------------------------");
+
 
 
     }
