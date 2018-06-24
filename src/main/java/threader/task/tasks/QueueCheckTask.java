@@ -8,7 +8,13 @@ public class QueueCheckTask extends Task {
             log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " poll queue");
             Task task = queue.poll();
             if (task != null){
-                task.run();
+                try{
+                    task.run();
+                }catch(NullPointerException e){
+                    System.out.println(e);
+
+                    System.out.println(e.getStackTrace().toString());
+                }
             }else{
                 sleep((int)Math.random()*1000+500);
             }

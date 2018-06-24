@@ -1,11 +1,9 @@
 package threader.task.tasks;
 
 import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import threader.dataClasss.Data;
 import threader.dataClasss.Location;
 import threader.task.Task;
-import threader.task.thens.Thenable;
 
 import java.io.*;
 
@@ -27,10 +25,11 @@ public class ProcessFileTask extends Task {
 //            System.out.println(builder.toString());
             try{
                 Location[] locations = Location.ParseLocations(builder.toString());
-                System.out.println("LOCATIONS!!!!!! worked   " + fileToProcess.toString() + "   " + Thread.currentThread().getName());
-//                for (Location location : locations){
-//                    System.out.println(location.toString());
-//                }
+                Data[] dataArr = Location.extractData(locations);
+                for (Data data : dataArr){
+                    System.out.println(data.toString());
+                }
+
 
             }catch (JsonMappingException e){
                 System.out.println("JSON MAP ERROR -" +fileToProcess.toString() + "    " + e.getMessage());

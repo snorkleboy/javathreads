@@ -6,6 +6,10 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
 
 public class Location {
     public String name;
@@ -71,6 +75,25 @@ public class Location {
         name = namein;
         city = cityin;
         type = typein;
+    }
+    public static Data[] extractData(Location[] locations){
+        HashMap<String,Data> dataCollection = new HashMap<>();
+        for (Location location : locations){
+            dataCollection.putIfAbsent(location.city,new Data(location.city,new HashMap<String, TypeAmount>()));
+            Data cityData = dataCollection.get(location.city);
+            cityData.typeAmounts.putIfAbsent(location.type,new TypeAmount(location.type,0));
+            TypeAmount cityTypeAmount = cityData.typeAmounts.get(location.type);
+            cityTypeAmount.amount = cityTypeAmount.amount + 1;
+        }
+        Set keys = dataCollection.keySet();
+        Iterator iterator = keys.iterator();
+        Data[] returnData = new Data[keys.size()];
+        int i =0;
+        while (iterator.hasNext()){
+            String key = (String)iterator.next();
+            returnData[i] = dataCollection.get(key);
+        }
+        return returnData;
     }
 
     public String toString(){
