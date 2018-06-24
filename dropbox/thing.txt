@@ -1,0 +1,3 @@
+hi from thing.txt 1
+hi from thing.txt 2
+hi from thing.txt 3

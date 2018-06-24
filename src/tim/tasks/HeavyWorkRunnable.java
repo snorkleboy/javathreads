@@ -1,6 +1,8 @@
-package tim;
+package tim.tasks;
 
-public class HeavyWorkRunnable implements Runnable {
+import tim.Task;
+
+public class HeavyWorkRunnable extends Task {
 
     @Override
     public void run() {
