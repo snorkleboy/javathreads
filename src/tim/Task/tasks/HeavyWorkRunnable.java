@@ -1,6 +1,6 @@
-package tim.tasks;
+package tim.Task.tasks;
 
-import tim.Task;
+import tim.Task.Task;
 
 public class HeavyWorkRunnable extends Task {
 

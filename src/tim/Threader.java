@@ -1,8 +1,6 @@
 package tim;
 
-import tim.tasks.QueueCheckTask;
-
-import java.io.File;
+import tim.Task.tasks.QueueCheckTask;
 
 public class Threader {
     public void run(){

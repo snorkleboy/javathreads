@@ -1,6 +1,7 @@
 package tim;
 
-import tim.tasks.DirectoryScanTask;
+import tim.Task.TaskQueue;
+import tim.Task.tasks.DirectoryScanTask;
 
 public class Main {
 
