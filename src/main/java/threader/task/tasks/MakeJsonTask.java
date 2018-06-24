@@ -14,11 +14,30 @@ import java.io.IOException;
 public class MakeJsonTask extends Task {
     String path;
     int tomake;
-    MakeJsonTask(){}
     public MakeJsonTask(String fileName, int num){
         tomake = num;
         path = fileName;
+
         queue.add(this);
+    }
+    public static void MakeTestFiles(){
+        new MakeJsonTask("./created/locations1a.json",1);
+        new MakeJsonTask("./created/locations2a.json",10);
+        new MakeJsonTask("./created/locations3a.json",100);
+        new MakeJsonTask("./created/locations4a.json",1000);
+        new MakeJsonTask("./created/locations5a.json",10000);
+
+        new MakeJsonTask("./created/locations1b.json",1);
+        new MakeJsonTask("./created/locations2b.json",10);
+        new MakeJsonTask("./created/locations3b.json",100);
+        new MakeJsonTask("./created/locations4b.json",1000);
+        new MakeJsonTask("./created/locations5b.json",10000);
+
+        new MakeJsonTask("./created/locations1c.json",1);
+        new MakeJsonTask("./created/locations2c.json",10);
+        new MakeJsonTask("./created/locations3c.json",100);
+        new MakeJsonTask("./created/locations4c.json",1000);
+        new MakeJsonTask("./created/locations5c.json",10000);
     }
     public void run(){
         Location[] locations = makeLocations(tomake);
