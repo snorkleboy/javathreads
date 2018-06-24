@@ -1,8 +1,7 @@
-package tim.Task;
+package Threader.Task;
 
-import tim.Log;
+import Threader.Log;
 
-import java.util.ArrayList;
 import java.util.Queue;
 
 
@@ -14,18 +13,29 @@ public class Task implements Runnable{
     protected Runnable lam;
     public long time;
 
-    protected Task(){}
+    protected Task(){
+        queue.add(this);
+    }
     public Task(Runnable lambda){
         lam = lambda;
         time = System.currentTimeMillis();
+        queue.add(this);
     }
     public Task(Runnable lambda, long timeTo){
         lam = lambda;
         time = System.currentTimeMillis() + timeTo;
+        queue.add(this);
     }
     public void run(){
         System.out.println("RUN TASK!!!");
         lam.run();
+    }
+    protected void sleep(int time){
+        try{
+            Thread.sleep(time);
+        }catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 

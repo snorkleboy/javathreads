@@ -1,6 +1,4 @@
-package tim.Task;
-
-import tim.Task.Task;
+package Threader.Task;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

@@ -1,11 +1,10 @@
-package tim;
+package Threader;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.Hashtable;
 
 public class Log {
-    static private ConcurrentHashMap<String, ArrayList<String>> threadToLogsMap = new ConcurrentHashMap<String, ArrayList<String>>();
+    static private Hashtable<String, ArrayList<String>> threadToLogsMap = new Hashtable<String, ArrayList<String>>();
     public static void log(String threadName, String message){
             if (!threadToLogsMap.containsKey(threadName)){
                 threadToLogsMap.put(threadName, new ArrayList<String>());
@@ -26,10 +25,8 @@ public class Log {
             System.out.print(String.format("%50s", s));
         }
         System.out.println();
-
         System.out.println(String.format("%20s ","Tasks"));
         System.out.println();
-
         for(String[] line : lines){
             for (String s : line) {
                 System.out.print(String.format("%50s ", s));

@@ -1,7 +1,7 @@
-package tim.Task;
+package Threader.Task;
 
 
-import tim.Log;
+import Threader.Log;
 
 import java.util.ArrayList;
 import java.util.Queue;
@@ -11,7 +11,7 @@ interface Thenable<input>{
     public Object run(input input);
 }
 public class ThenTask<input>{
-    protected static Queue<tim.Task.Task> queue = TaskQueue.queue;
+    protected static Queue<Threader.Task.Task> queue = TaskQueue.queue;
     protected static Log log = new Log();
     protected Thenable<input> lam;
 

@@ -1,8 +1,12 @@
-package tim.Task.tasks;
+package Threader.Task.tasks;
 
-import tim.Task.Task;
+import Threader.Task.Task;
 
 public class QueueCheckTask extends Task {
+    //onyl task that doesnt put itself on the queue
+    public QueueCheckTask(){
+
+    }
     public void run(){
         while(true){
             log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " poll queue");
@@ -10,11 +14,7 @@ public class QueueCheckTask extends Task {
             if (task != null){
                 task.run();
             }else{
-                try{
-                    Thread.sleep(5000);
-                }catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+                sleep(1000);
             }
         }
     }
