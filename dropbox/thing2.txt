@@ -1,3 +1,0 @@
-hi from thing2.txt 1
-hi from thing2.txt 2
-hi from thing2.txt 3
