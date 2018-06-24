@@ -6,7 +6,7 @@ public class QueueCheckTask extends Task {
     public QueueCheckTask(){
         setLam(()-> {
             while(true){
-                log.log(Thread.currentThread().getName(),"poll queue");
+                log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " poll queue");
                 Task task = queue.poll();
                 if (task != null){
                     task.run();
