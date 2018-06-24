@@ -1,5 +1,7 @@
 package tim;
+import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 public class Main {
@@ -10,8 +12,17 @@ public class Main {
         queue.add(new Task());
         queue.add(new Task());
         queue.add(new Task());
+        String current = "";
+        System.out.println("Working Directory = " +
+                System.getProperty("user.dir"));
+        File[] files = new java.io.File( "." ).listFiles();
+        for (int i =0; i< files.length; i++){
+            System.out.println("FILE:" + files[i].toString());
+        }
 
-
+        System.out.println("Current dir:"+ "");
+        String currentDir = System.getProperty("user.dir");
+        System.out.println("Current dir using System:" +currentDir);
 
         Runnable lam =()-> {
             while(true){

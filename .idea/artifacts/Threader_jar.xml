@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Threader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Threader_jar</output-path>
+    <root id="archive" name="Threader.jar">
+      <element id="module-output" name="Threader" />
+    </root>
+  </artifact>
+</component>
