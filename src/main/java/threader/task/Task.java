@@ -11,13 +11,11 @@ public class Task implements Runnable{
     protected static Log log = new Log();
 
     protected Runnable lam;
-    public long time;
+    public long time = System.currentTimeMillis();
     public Task(){
-
     }
     public Task(Runnable lambda){
         lam = lambda;
-        time = System.currentTimeMillis();
         queue.add(this);
     }
     public Task(Runnable lambda, long timeTo){

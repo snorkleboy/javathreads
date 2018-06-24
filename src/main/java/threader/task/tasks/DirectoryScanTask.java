@@ -11,23 +11,31 @@ import java.util.regex.Pattern;
 
 public class DirectoryScanTask extends Task {
     static Hashtable<File, Boolean> foundFiles = new Hashtable<File,Boolean>();
+    String path;
+    String regex;
     public DirectoryScanTask(){
+        path = "./dropbox";
+        regex = ".*\\.json";
+        queue.add(this);
+    }
+    public DirectoryScanTask(String searchDirectory, String regexin){
+        path = searchDirectory;
+        regex= regexin;
         queue.add(this);
     }
     public void run(){
         log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " search directory");
 
-        File[] files = getFiles("./dropbox",".*\\.json");
+        File[] files = getFiles();
         if (files.length > 0){
             queueProccessing(files);
         }
-        sleep(2000);
         log.print();
-
-        new DirectoryScanTask();
+        sleep(1000);
+        new DirectoryScanTask(path, regex);
     }
-    protected File[] getFiles(String path, String regex){
-        File[] files =  new java.io.File(path  ).listFiles(new FileFilter(){
+    protected File[] getFiles(){
+        File[] files =  new java.io.File(path).listFiles(new FileFilter(){
             @Override
             public boolean accept(File file) {
                 final Pattern p = Pattern.compile(regex);

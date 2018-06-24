@@ -34,9 +34,9 @@ public class Log {
             System.out.println();
         }
         System.out.println();
-        System.out.println("brought to you by " + Thread.currentThread().getName());
 
         TaskQueue.print();
+        System.out.println("brought to you by " + Thread.currentThread().getName());
         System.out.println("------------------------");
         System.out.println("------------------------");
     }

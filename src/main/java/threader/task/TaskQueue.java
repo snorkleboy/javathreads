@@ -1,5 +1,6 @@
 package threader.task;
 
+import java.util.Iterator;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -7,14 +8,9 @@ public class TaskQueue {
     public final static Queue<Task> queue = new ConcurrentLinkedQueue<Task>();
 
     public static Task poll(){
-        Task task;
-        synchronized (queue){
-            task = queue.poll();
-            if (task != null){
-            }
-        }
-        return task;
+        return queue.poll();
     }
+
 
     public static void add(Task task){
         queue.add(task);
