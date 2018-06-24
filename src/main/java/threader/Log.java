@@ -1,5 +1,7 @@
 package threader;
 
+import threader.task.TaskQueue;
+
 import java.util.ArrayList;
 import java.util.Hashtable;
 
@@ -33,6 +35,8 @@ public class Log {
         }
         System.out.println();
         System.out.println("brought to you by " + Thread.currentThread().getName());
+
+        TaskQueue.print();
         System.out.println("------------------------");
         System.out.println("------------------------");
     }

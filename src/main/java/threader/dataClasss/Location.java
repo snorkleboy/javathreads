@@ -11,23 +11,33 @@ public class Location {
     public String name;
     public String city;
     public String type;
+    public Location(){}
+    public void setName(String namein){
+        name = namein;
+    }
+    public void setCity(String cityin){
+        city = cityin;
+    }
 
-    public static Location[] ParseLocations(String json) throws JsonProcessingException{
+    public void setType(String typein){
+        type = typein;
+    }
+
+    public static Location[] ParseLocations(String json) throws JsonMappingException{
         Location[] locations = null;
         try{
             ObjectMapper mapper = new ObjectMapper();
             locations = mapper.readValue(json, Location[].class);
-        }catch (JsonProcessingException e){
+        }
+        catch(JsonMappingException e){
             System.out.println("json read problems " + json + "   " + Thread.currentThread().getName());
-            System.out.println(e.getMessage());
-            System.out.println(e.getLocation());
             throw e;
         }catch(IOException e){
             System.out.println(e.getStackTrace());
         }
         return locations;
     }
-    public static Location ParseLocation(String json) throws JsonProcessingException{
+    public static Location ParseLocation(String json) throws JsonMappingException{
         Location location = null;
         try{
             ObjectMapper mapper = new ObjectMapper();
@@ -42,7 +52,7 @@ public class Location {
                         "city, name, or type is null:" + location.city +" " + location.name + " " +"  "+ location.type + ".. Original json:"+json
                 );
             }
-        }catch (JsonProcessingException e){
+        }catch (JsonMappingException e){
             System.out.println("json read problems " + json + "   " + Thread.currentThread().getName());
             System.out.println(e.getMessage());
             System.out.println(e.getLocation());
@@ -57,10 +67,10 @@ public class Location {
         city = json.get("name").textValue();;
         type = json.get("name").textValue();;
     }
-    public Location(String namein, String cityin, String typin){
+    public Location(String namein, String cityin, String typein){
         name = namein;
         city = cityin;
-        type = typin;
+        type = typein;
     }
 
     public String toString(){

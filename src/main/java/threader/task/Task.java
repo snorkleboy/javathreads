@@ -7,14 +7,13 @@ import java.util.Queue;
 
 
 public class Task implements Runnable{
-    protected static Queue<Task> queue = TaskQueue.queue;
+    protected static TaskQueue queue = new TaskQueue();
     protected static Log log = new Log();
 
     protected Runnable lam;
     public long time;
+    public Task(){
 
-    protected Task(){
-        queue.add(this);
     }
     public Task(Runnable lambda){
         lam = lambda;
@@ -35,6 +34,9 @@ public class Task implements Runnable{
         }catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+    protected String getThreadName(){
+        return Thread.currentThread().getName();
     }
 
 

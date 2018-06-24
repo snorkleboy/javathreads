@@ -27,10 +27,13 @@ public class ProcessFileTask extends Task {
 //            System.out.println(builder.toString());
             try{
                 Location[] locations = Location.ParseLocations(builder.toString());
-                System.out.println(locations.toString());
+                System.out.println("LOCATIONS!!!!!! worked   " + fileToProcess.toString() + "   " + Thread.currentThread().getName());
+//                for (Location location : locations){
+//                    System.out.println(location.toString());
+//                }
 
             }catch (JsonMappingException e){
-                System.out.println(e);
+                System.out.println("JSON MAP ERROR -" +fileToProcess.toString() + "    " + e.getMessage());
             }
             sleep(2000);
         }catch (FileNotFoundException e) {

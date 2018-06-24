@@ -3,9 +3,7 @@ package threader.task.tasks;
 import threader.task.Task;
 
 public class QueueCheckTask extends Task {
-    //onyl task that doesnt put itself on the queue
     public QueueCheckTask(){
-
     }
     public void run(){
         while(true){
