@@ -13,7 +13,7 @@ public class QueueCheckTask extends Task {
                 }catch(NullPointerException e){
                     System.out.println(e);
 
-                    System.out.println(e.getStackTrace().toString());
+                    e.printStackTrace();
                 }
             }else{
                 sleep((int)Math.random()*1000+500);

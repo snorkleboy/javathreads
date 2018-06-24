@@ -14,10 +14,7 @@ public class Data{
     public String toString(){
         try{
 
-        }catch( NullPointerException e){
-            System.out.println("NULL POINTER ON GETTING DATA->STRING");
-            System.out.println(e);
-        }
+
         StringBuilder builder = new StringBuilder();
         String string = "CITY: "+city + "-TYPEAMOUNTS:";
         builder.append(string);
@@ -30,6 +27,11 @@ public class Data{
             builder.append("\n type: " + typeAmount.type + "  -amount: "+typeAmount.amount);
         }
         return builder.toString();
+        }catch( NullPointerException e){
+            System.out.println("NULL POINTER ON GETTING DATA->STRING");
+            System.out.println(e);
+        }
+        return "ERROR GETTING THIS DATA";
 
     }
 }

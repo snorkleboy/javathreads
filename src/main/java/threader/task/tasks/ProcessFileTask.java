@@ -18,7 +18,7 @@ public class ProcessFileTask extends Task {
         log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " FILETRIGGER" + fileToProcess.toString());
         try{
             BufferedReader in = new BufferedReader(new FileReader(fileToProcess.toString()));
-            StringBuilder builder = new StringBuilder();
+            StringBuffer builder = new StringBuffer();
             while (in.ready()) {
                 builder.append(in.readLine());
             }
@@ -26,9 +26,7 @@ public class ProcessFileTask extends Task {
             try{
                 Location[] locations = Location.ParseLocations(builder.toString());
                 Data[] dataArr = Location.extractData(locations);
-                for (Data data : dataArr){
-                    System.out.println(data.toString());
-                }
+                log.logResults(fileToProcess.toString(),dataArr);
 
 
             }catch (JsonMappingException e){

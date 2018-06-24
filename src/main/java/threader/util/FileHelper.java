@@ -1,7 +1,8 @@
 package threader.util;
 
-import java.io.File;
-import java.io.IOException;
+import com.fasterxml.jackson.core.JsonProcessingException;
+
+import java.io.*;
 
 public class FileHelper {
     public static File getFile(String path){
@@ -20,5 +21,14 @@ public class FileHelper {
         }
         return file;
 
+    }
+    public static void WriteFile(String path, String toPrint){
+        try{
+            File file = FileHelper.getFile(path);
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+            writer.write(toPrint);
+        }catch (IOException e){
+            System.out.println(e);
+        }
     }
 }

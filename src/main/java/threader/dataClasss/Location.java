@@ -37,7 +37,7 @@ public class Location {
             System.out.println("json read problems " + json + "   " + Thread.currentThread().getName());
             throw e;
         }catch(IOException e){
-            System.out.println(e.getStackTrace());
+            e.printStackTrace();
         }
         return locations;
     }
@@ -62,7 +62,7 @@ public class Location {
             System.out.println(e.getLocation());
             throw e;
         }catch (IOException e){
-            System.out.println(e.getStackTrace());
+            e.printStackTrace();
         }
         return location;
     };
@@ -92,6 +92,7 @@ public class Location {
         while (iterator.hasNext()){
             String key = (String)iterator.next();
             returnData[i] = dataCollection.get(key);
+            i++;
         }
         return returnData;
     }
