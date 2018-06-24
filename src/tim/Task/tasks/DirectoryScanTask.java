@@ -11,7 +11,7 @@ public class DirectoryScanTask extends Task {
     Hashtable<Integer, String> foundFiles = new Hashtable<Integer,String>();
     public DirectoryScanTask(){
         setLam(()-> {
-            log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + "search directory");
+            log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " search directory");
             File[] files = new java.io.File( "./dropbox" ).listFiles(new FileFilter(){
                 @Override
                 public boolean accept(File file) {
@@ -21,9 +21,9 @@ public class DirectoryScanTask extends Task {
             });
 
             for (File file: files){
-                System.out.println("FILE:" + file.toString());
                 queue.add(new Task(()->{
-                    log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + "NEW TASK WORKING  -triggered by" + file.toString());
+                    log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " FILETRIGGER" + file.toString());
+
                     try{
                         Thread.sleep(3000);
                     }catch (InterruptedException e) {

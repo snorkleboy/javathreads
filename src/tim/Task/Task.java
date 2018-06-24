@@ -28,7 +28,6 @@ public class Task implements Runnable{
         lam = lambda;
     }
     public void run(){
-        log.log(Thread.currentThread().getName(),"started");
         lam.run();
     }
 }
