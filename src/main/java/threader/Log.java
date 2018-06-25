@@ -54,15 +54,16 @@ public class Log {
         if (threadToResults.putIfAbsent(file,data) == null){
             numFilesDone++;
 
+
              if(numFilesDone %batchPrint == 0){
-                 printResutls();
+                 printResults();
              }
         }else{
             System.out.println("FILE RESULTS BEING LOGGED TWICE!!!, SHOULD NOT HAPPENING YET");
         }
 
     }
-    public static void printResutls(){
+    public static void printResults(){
 //        Hashtable<String, Data[]> theseResults = threadToResults;
 //        threadToResults = new Hashtable<String, Data[]>();
 //        Set keys = theseResults.keySet();

@@ -1,0 +1,37 @@
+//new Task(()->{
+//        SynchInt doneNum = 0;
+//        File[] files = getFiles()
+//        Locations[] locations = new Synchlocations()
+//        for(File[] file: files){
+//            String filestr = readFile(file);
+//            new Task(()->{
+//                locations.add(processFile(fileStr));
+//                doneNum++;
+//            }
+//        }
+//        doneNum.Awken(Thread.currentThread(),getFiles().length)
+//        ||
+//        doneNum.upon(getFiles().length,()->{
+//            writeFiles(locations);
+//        })
+//
+//})
+//
+//new Async(()->scanDirectory)
+//    .then(filesObj->{
+//         File[] files = (File[])filesObject;
+//        <file,locations[]> results = new <file,locations>;
+//        TaskArray tasks= new TaskArray;
+//
+//        for(File file : files){
+//            String json = readFile(file);
+//            tasks.add(
+//                new Task(()->processFile(json))
+//                    .then((locations)->results.put(file,locations))
+//            );
+//        })
+//
+//        Task.await(tasks)
+//                .then(()->print(results));
+//
+//    })
