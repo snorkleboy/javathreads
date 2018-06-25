@@ -17,35 +17,50 @@
 //
 //})
 ===========
-void run(){
-    call();
-    onCompleteCallback();
-}
-void onComplete(thenable lambda){
-    onCompleteCallback = lambda;
-    if (completed){
-        onCompleteCallback(results);
+
+Async extends Task{
+    Thenable lam;
+    completed = false;
+    Thenable onCompleteCallback
+    Object result;
+    Async(Thenable lambda){
+        lam = lambda
     }
-}
-Static void await(Task[] tasks){
-      numDone = 0;
-      numToAwait = tasks.length
-      parentThread = Thread.CurrentThread
-      for(Task task:tasks){
-        task.onComplete(()->{
-              numDone++
-              if (numDone==numToAwait){
-                  Awaken(parentThread)
-              }
-         })
+    public override void run(){
+        call();
+    }
+    public void call(){
+        result = lam();
+        completed = true;
+        if (onCompleteCallback){
+            onCompleteCallback();
+        }
+    }
+    void onComplete(thenable lambda){
+        onCompleteCallback = lambda;
+        if (completed){
+            onCompleteCallback(results);
+        }
+    }
+    Static void await(Task[] tasks){
+          numDone = 0;
+          numToAwait = tasks.length
+          parentThread = Thread.CurrentThread
+          for(Task task:tasks){
+            task.onComplete(()->{
+                  numDone++
+                  if (numDone==numToAwait){
+                      Awaken(parentThread)
+                  }
+             })
+          }
+
+          wait();
+          new Task(()->{thenCallBack()});
       }
-
-      wait();
-      new Task(()->{thenCallBack()});
-  }
-
+}
 //new Async(()->scanDirectory)
-//    .then(filesObj->{
+//    .then(files->{
 //         File[] files = (File[])filesObject;
 //        <file,locations[]> results = new <file,locations>;
 //        TaskArray tasks= new TaskArray;
@@ -58,7 +73,7 @@ Static void await(Task[] tasks){
 //            );
 //        })
 //
-//        Task.await(tasks)
+//        Async.await(tasks)
 //                .then(()->print(results));
 //
 //    })
