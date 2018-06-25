@@ -27,6 +27,7 @@ Async extends Task{
     Object result;
     Async(Thenable lambda){
         lam = lambda
+        queue.add(this);
     }
     public override void run(){
         call();
