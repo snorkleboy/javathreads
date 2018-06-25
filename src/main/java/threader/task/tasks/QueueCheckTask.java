@@ -11,7 +11,7 @@ public class QueueCheckTask extends Task {
     }
     public static void runStatic(){
         while(true){
-            log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " poll queue");
+//            log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " poll queue");
             Task task = queue.poll();
             if (task != null){
                 try{
