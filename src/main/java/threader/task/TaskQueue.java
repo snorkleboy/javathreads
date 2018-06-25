@@ -8,7 +8,9 @@ public class TaskQueue {
     public final static Queue<Task> queue = new ConcurrentLinkedQueue<Task>();
 
     public static Task poll(){
-        return queue.poll();
+        Task task =  queue.poll();
+        System.out.println(task.time + "   " +  (task.time-(int)System.currentTimeMillis()));
+        return task;
     }
 
 

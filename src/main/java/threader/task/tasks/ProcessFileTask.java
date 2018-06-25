@@ -12,7 +12,7 @@ public class ProcessFileTask extends Task {
     File fileToProcess;
     ProcessFileTask(File file){
         fileToProcess = file;
-        queue.add(this);
+//        queue.add(this);
     }
 
     public void run(){
@@ -32,16 +32,16 @@ public class ProcessFileTask extends Task {
                 for(Data data : dataArr){
                     resultBuilder.append(data.toString() + "\n\n");
                 }
-                String path = "./processed/" +fileToProcess.getName().replace(".json",".processed");
-                FileHelper.WriteFile(path, resultBuilder.toString());
-                fileToProcess.renameTo(FileHelper.getFile("./processed/"+fileToProcess.getName()));
-                log.logResults(fileToProcess.toString(),dataArr);
-
+                new Task(()->{
+                    String path = "./processed/" +fileToProcess.getName().replace(".json",".processed");
+                    FileHelper.WriteFile(path, resultBuilder.toString());
+                    fileToProcess.renameTo(FileHelper.getFile("./processed/"+fileToProcess.getName()));
+                    log.logResults(fileToProcess.toString(),dataArr);
+                });
 
             }catch (JsonMappingException e){
                 System.out.println("JSON MAP ERROR -" +fileToProcess.toString() + "    " + e.getMessage());
             }
-            sleep(2000);
         }catch (FileNotFoundException e) {
             String error = "file from ScanDirectory task not found by ProcessFile";
             log.log (Thread.currentThread().getName(),error);
