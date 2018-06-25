@@ -7,26 +7,24 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class TaskQueue {
     public final static Queue<Task> queue = new ConcurrentLinkedQueue<Task>();
-    private ConcurrentLinkedQueue<Thread> threadlist = new ConcurrentLinkedQueue<Thread>();
-    public Log log = new Log();
-    public TaskQueue(){}
-    public TaskQueue(int numThreads, Boolean includeMain){
+    private static ConcurrentLinkedQueue<Thread> threadlist = new ConcurrentLinkedQueue<Thread>();
+    public static Log log = new Log();
+    public static void spinUp(int numThreads, Boolean includeMain){
         int threadsTomake = includeMain? numThreads-1 : numThreads;
         System.out.println(threadsTomake);
         for(int i=0; i<threadsTomake; i++){
             threadlist.add(
                     new Thread(()->{
-                        checkTask();
+                        checkTasks();
                     }, "__THREAD_"+i+"_")
             );
         }
         for(Thread thread : threadlist){
-            System.out.println("STARTING THREAD");
             thread.start();
         }
 
         if (includeMain){
-            QueueCheckTask.runStatic();;
+            checkTasks();
         }
     }
 
@@ -45,7 +43,7 @@ public class TaskQueue {
     public static void add(Task task){
         queue.add(task);
     }
-    public void checkTask(){
+    public static void checkTasks(){
         while(true){
             log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " poll queue");
             Task task = queue.poll();

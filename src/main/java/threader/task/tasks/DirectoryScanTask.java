@@ -27,7 +27,7 @@ public class DirectoryScanTask extends Task {
     public void run(){
         log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " search directory");
         while (queue.hasTasks()){
-            QueueCheckTask.runStatic();
+            queue.checkTasks();
             log.print();
         }
         log.print();
