@@ -32,6 +32,7 @@ public class ProcessFileTask extends Task {
                 for(Data data : dataArr){
                     resultBuilder.append(data.toString());
                 }
+                fileToProcess.renameTo(FileHelper.getFile("./processed/"+fileToProcess.getName()));
                 String path = "./processed/" +fileToProcess.getName().replace(".json",".processed");
                 FileHelper.WriteFile(path, resultBuilder.toString());
                 log.logResults(fileToProcess.toString(),dataArr);

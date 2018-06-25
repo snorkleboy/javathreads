@@ -10,6 +10,21 @@ CITY: Kirkwall-TYPEAMOUNTS:
 
 
 
+./dropbox/locations2c.json
+CITY: Hornsey-TYPEAMOUNTS:
+ type: store  -amount: 1CITY: Pantmawr-TYPEAMOUNTS:
+ type: other Ghost  -amount: 1CITY: Kilmarnock-TYPEAMOUNTS:
+ type: Store  -amount: 1CITY: Braedon-TYPEAMOUNTS:
+ type: other Ghost  -amount: 1CITY: Ferncombe-TYPEAMOUNTS:
+ type: Holy Ghosty  -amount: 1CITY: Falkirk-TYPEAMOUNTS:
+ type: Store  -amount: 1CITY: Grimsby-TYPEAMOUNTS:
+ type: other Ghost  -amount: 1CITY: Balerno-TYPEAMOUNTS:
+ type: Holy Ghosty  -amount: 1CITY: Caerdydd-TYPEAMOUNTS:
+ type: other Ghost  -amount: 1CITY: Travercraig-TYPEAMOUNTS:
+ type: store  -amount: 1
+
+
+
 ./dropbox/locations3c.json
 CITY: Hornsey-TYPEAMOUNTS:
  type: Holy Ghosty  -amount: 1
@@ -90,90 +105,6 @@ CITY: Hornsey-TYPEAMOUNTS:
  type: unHoly Ghost  -amount: 1
  type: Holy Ghosty  -amount: 2
  type: Store  -amount: 1
-
-
-
-./dropbox/locations3a.json
-CITY: Hornsey-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 1CITY: Braedon-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: Holy Ghosty  -amount: 1
- type: store  -amount: 3CITY: Kilmarnock-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: unHoly Ghost  -amount: 1
- type: Holy Ghosty  -amount: 1
- type: store  -amount: 2CITY: Fool's March -TYPEAMOUNTS:
- type: Store  -amount: 1CITY: Romsey-TYPEAMOUNTS:
- type: Holy Ghosty  -amount: 1
- type: Store  -amount: 1
- type: store  -amount: 1CITY: Kirkwall-TYPEAMOUNTS:
- type: Holy Ghosty  -amount: 1CITY: Travercraig-TYPEAMOUNTS:
- type: other Ghost  -amount: 1CITY: Findochty-TYPEAMOUNTS:
- type: Holy Ghosty  -amount: 1
- type: Store  -amount: 1
- type: store  -amount: 1CITY: Goulcrest -TYPEAMOUNTS:
- type: other Ghost  -amount: 2
- type: Holy Ghosty  -amount: 1
- type: store  -amount: 3CITY: Cappadocia-TYPEAMOUNTS:
- type: Store  -amount: 1CITY: Farnworth-TYPEAMOUNTS:
- type: Store  -amount: 1CITY: Falkirk-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 1CITY: Deathfall -TYPEAMOUNTS:
- type: store  -amount: 1CITY: Balerno-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: unHoly Ghost  -amount: 1
- type: Store  -amount: 1CITY: Jongvale -TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 2CITY: Polperro-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 1CITY: Scrabster-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: unHoly Ghost  -amount: 1
- type: Holy Ghosty  -amount: 1
- type: Store  -amount: 1CITY: Blencathra-TYPEAMOUNTS:
- type: Holy Ghosty  -amount: 2
- type: Store  -amount: 1CITY: Ballingsmallard-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: Store  -amount: 2CITY: Blencogo-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: unHoly Ghost  -amount: 1
- type: Store  -amount: 3CITY: Pantmawr-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: unHoly Ghost  -amount: 1CITY: Halivaara-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 1
- type: store  -amount: 1CITY: Woodhaerst-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: unHoly Ghost  -amount: 3
- type: Holy Ghosty  -amount: 1
- type: store  -amount: 2CITY: Threlkeld-TYPEAMOUNTS:
- type: Store  -amount: 1
- type: store  -amount: 1CITY: Emall-TYPEAMOUNTS:
- type: other Ghost  -amount: 4
- type: unHoly Ghost  -amount: 1
- type: Store  -amount: 2
- type: store  -amount: 1CITY: Grimsby-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: unHoly Ghost  -amount: 1
- type: Holy Ghosty  -amount: 1CITY: Ferncombe-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: Store  -amount: 1CITY: Carningsby-TYPEAMOUNTS:
- type: other Ghost  -amount: 1
- type: store  -amount: 1CITY: Colchester-TYPEAMOUNTS:
- type: other Ghost  -amount: 1CITY: Wimborne-TYPEAMOUNTS:
- type: Store  -amount: 1
- type: store  -amount: 1CITY: Leeside -TYPEAMOUNTS:
- type: Holy Ghosty  -amount: 1
- type: unHoly Ghost  -amount: 1CITY: Rochdale-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 2CITY: Bamborourgh-TYPEAMOUNTS:
- type: store  -amount: 2CITY: Caerdydd-TYPEAMOUNTS:
- type: Store  -amount: 1CITY: Wavemeet -TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 1CITY: Kincardine-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 1CITY: Penzance-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 2
- type: Holy Ghosty  -amount: 1
- type: store  -amount: 1CITY: Garthram-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 1
- type: Store  -amount: 1
- type: store  -amount: 1CITY: Ascot-TYPEAMOUNTS:
- type: unHoly Ghost  -amount: 1
- type: store  -amount: 1
 
 
 

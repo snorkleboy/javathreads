@@ -1,18 +1,3 @@
-./dropbox/locations2c.json
-CITY: Hornsey-TYPEAMOUNTS:
- type: store  -amount: 1CITY: Pantmawr-TYPEAMOUNTS:
- type: other Ghost  -amount: 1CITY: Kilmarnock-TYPEAMOUNTS:
- type: Store  -amount: 1CITY: Braedon-TYPEAMOUNTS:
- type: other Ghost  -amount: 1CITY: Ferncombe-TYPEAMOUNTS:
- type: Holy Ghosty  -amount: 1CITY: Falkirk-TYPEAMOUNTS:
- type: Store  -amount: 1CITY: Grimsby-TYPEAMOUNTS:
- type: other Ghost  -amount: 1CITY: Balerno-TYPEAMOUNTS:
- type: Holy Ghosty  -amount: 1CITY: Caerdydd-TYPEAMOUNTS:
- type: other Ghost  -amount: 1CITY: Travercraig-TYPEAMOUNTS:
- type: store  -amount: 1
-
-
-
 ./dropbox/locations5b.json
 CITY: Hornsey-TYPEAMOUNTS:
  type: other Ghost  -amount: 52
@@ -425,6 +410,12 @@ CITY: Hornsey-TYPEAMOUNTS:
  type: Holy Ghosty  -amount: 47
  type: Store  -amount: 66
  type: store  -amount: 42
+
+
+
+./dropbox/thing.json
+CITY: true-TYPEAMOUNTS:
+ type: type  -amount: 5
 
 
 
