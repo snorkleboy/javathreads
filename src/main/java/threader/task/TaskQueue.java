@@ -12,7 +12,7 @@ public class TaskQueue {
     public static Task poll(){
         Task task =  queue.poll();
         if(queue.size() == 0){
-            Log.printResutls();
+            Log.printResults();
         }
         return task;
     }
