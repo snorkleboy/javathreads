@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Threader.iml" filepath="$PROJECT_DIR$/Threader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threader.iml" filepath="$PROJECT_DIR$/threader.iml" />
     </modules>
   </component>
 </project>

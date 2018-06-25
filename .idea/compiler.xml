@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Threader" />
+        <module name="threader" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Threader" target="1.8" />
+      <module name="threader" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

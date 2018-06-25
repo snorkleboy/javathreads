@@ -36,7 +36,8 @@ public class DirectoryScanTask extends Task {
         new DirectoryScanTask(path, regex);
     }
     protected File[] getFiles(){
-        File[] files = FileHelper.getFile(path).listFiles(new FileFilter(){
+        //make sure directory exists
+        File[] files = FileHelper.getDirectory(path).listFiles(new FileFilter(){
             @Override
             public boolean accept(File file) {
                 final Pattern p = Pattern.compile(regex);

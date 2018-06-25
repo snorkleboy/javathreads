@@ -22,6 +22,16 @@ public class FileHelper {
         return file;
 
     }
+    public static File getDirectory(String path){
+        File file = null;
+
+        file = new File(path);
+        if (!file.exists() || !file.isDirectory()) {
+            file.mkdir();
+        }
+        return file;
+
+    }
     public static void WriteFile(String path, String toPrint){
         try{
             File file = FileHelper.getFile(path);
