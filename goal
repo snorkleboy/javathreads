@@ -16,7 +16,34 @@
 //        })
 //
 //})
-//
+===========
+void run(){
+    call();
+    onCompleteCallback();
+}
+void onComplete(thenable lambda){
+    onCompleteCallback = lambda;
+    if (completed){
+        onCompleteCallback(results);
+    }
+}
+Static void await(Task[] tasks){
+      numDone = 0;
+      numToAwait = tasks.length
+      parentThread = Thread.CurrentThread
+      for(Task task:tasks){
+        task.onComplete(()->{
+              numDone++
+              if (numDone==numToAwait){
+                  Awaken(parentThread)
+              }
+         })
+      }
+
+      wait();
+      new Task(()->{thenCallBack()});
+  }
+
 //new Async(()->scanDirectory)
 //    .then(filesObj->{
 //         File[] files = (File[])filesObject;
@@ -35,3 +62,6 @@
 //                .then(()->print(results));
 //
 //    })
+
+
+
