@@ -8,15 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="c5626208-aba2-4979-9882-1ae05fa18161" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/threader/threader/task/tasks/DirectoryScanTask$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threader/threader/task/tasks/DirectoryScanTask$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/threader/threader/task/tasks/DirectoryScanTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threader/threader/task/tasks/DirectoryScanTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threader/threader/dataClasss/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threader/threader/dataClasss/Data.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/results.all10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results.all11" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/results.all12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/results.all15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/results.all16" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/results.all5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threader/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threader/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threader/task/tasks/DirectoryScanTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threader/task/tasks/DirectoryScanTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results.all7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results.all8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results.all9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threader/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threader/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threader/dataClasss/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threader/dataClasss/Data.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +31,9 @@
     <session id="-1210507908">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="all10" value="2" />
           <entry key="gitignore" value="28" />
-          <entry key="java" value="19782" />
+          <entry key="java" value="19797" />
           <entry key="json" value="154" />
           <entry key="txt" value="32" />
           <entry key="xml" value="25" />
@@ -39,25 +41,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19782" />
+          <entry key="JAVA" value="19797" />
           <entry key="JSON" value="154" />
-          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="PLAIN_TEXT" value="62" />
           <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="all10" value="1" />
+          <entry key="all10" value="2" />
           <entry key="all12" value="1" />
           <entry key="all13" value="1" />
           <entry key="all15" value="3" />
-          <entry key="all5" value="3" />
+          <entry key="all5" value="4" />
+          <entry key="all8" value="1" />
           <entry key="class" value="4" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="98" />
+          <entry key="java" value="100" />
           <entry key="json" value="33" />
-          <entry key="processed" value="18" />
+          <entry key="processed" value="19" />
           <entry key="txt" value="5" />
           <entry key="work" value="1" />
           <entry key="xml" value="3" />
@@ -66,10 +69,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="98" />
+          <entry key="JAVA" value="100" />
           <entry key="JSON" value="33" />
           <entry key="Manifest" value="1" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="PLAIN_TEXT" value="39" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -93,10 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/tasks/DirectoryScanTask.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threader/Log.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +108,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threader/dataClasss/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="26" column="94" lean-forward="true" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/processed/locations1a.processed">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results/results.all8">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3690" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/tasks/DirectoryScanTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/tasks/QueueCheckTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -173,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tim/HeavyWorkRunnable.java" />
         <option value="$PROJECT_DIR$/dropbox/thing.txt" />
         <option value="$PROJECT_DIR$/dropbox/thing2.txt" />
         <option value="$PROJECT_DIR$/dropbox/otherthing.json" />
@@ -212,9 +250,7 @@
         <option value="$PROJECT_DIR$/created/locations1a.json" />
         <option value="$PROJECT_DIR$/src/main/java/threader/task/tasks/MakeJsonTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/threader/util/HashMapIterate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threader/dataClasss/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/threader/dataClasss/Location.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threader/Log.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/threader/task/tasks/ProcessFileTask.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -224,6 +260,9 @@
         <option value="$PROJECT_DIR$/src/main/java/threader/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/threader/task/tasks/DirectoryScanTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/threader/task/tasks/QueueCheckTask.java" />
+        <option value="$PROJECT_DIR$/results/results.all10" />
+        <option value="$PROJECT_DIR$/src/main/java/threader/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threader/dataClasss/Data.java" />
       </list>
     </option>
   </component>
@@ -453,7 +492,7 @@
         <observation name="typedSelect" value="423.0" />
       </dailyData>
       <dailyData date="24-6-2018">
-        <observation name="cancelled" value="3283.0" />
+        <observation name="cancelled" value="3288.0" />
         <observation name="explicitSelect" value="563.0" />
         <observation name="typedSelect" value="974.0" />
       </dailyData>
@@ -471,7 +510,7 @@
         <observation name="count" value="2247.0" />
       </dailyData>
       <dailyData date="24-6-2018">
-        <observation name="count" value="4820.0" />
+        <observation name="count" value="4825.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -884,6 +923,11 @@
             <path>
               <item name="Threader" type="b2602c69:ProjectViewProjectNode" />
               <item name="Threader" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Threader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Threader" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -911,6 +955,25 @@
               <item name="Threader" type="b2602c69:ProjectViewProjectNode" />
               <item name="Threader" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="threader" type="462c0819:PsiDirectoryNode" />
+              <item name="dataClasss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Threader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Threader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="threader" type="462c0819:PsiDirectoryNode" />
+              <item name="dataClasss" type="462c0819:PsiDirectoryNode" />
+              <item name="Data.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Threader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Threader" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -926,7 +989,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529893337798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529893599814" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1082,7 +1145,7 @@
     <frame x="1951" y="115" width="1401" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32767528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32767528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1091,7 +1154,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328341" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30990782" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30990782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1142,9 +1205,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/results/results.all13">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dropbox/locations1b.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1161,19 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dropbox/locations4a.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threader/dataClasss/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/results.all10">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dropbox/locations1a.json.processed">
@@ -1224,20 +1271,7 @@
     <entry file="file://$PROJECT_DIR$/processed/locations3b.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threader/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/results.all15">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processed/locations1a.processed">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/tasks/ProcessFileTask.java">
@@ -1322,9 +1356,6 @@
         <state relative-caret-position="-3195" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/results.all5">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/processed/thing.processed">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1389,16 +1420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/tasks/DirectoryScanTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/tasks/QueueCheckTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1406,6 +1427,56 @@
           <folding>
             <element signature="e#122#123#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/results.all5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/results.all10">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/tasks/DirectoryScanTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed/locations1a.processed">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/results.all8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threader/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threader/dataClasss/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="26" column="94" lean-forward="true" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

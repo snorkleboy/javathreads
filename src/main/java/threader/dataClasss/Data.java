@@ -24,7 +24,7 @@ public class Data{
         while (iterator.hasNext()){
             String key = (String)iterator.next();
             TypeAmount typeAmount = typeAmounts.get(key);
-            builder.append("\n type: " + typeAmount.type + "  -amount: "+typeAmount.amount);
+            builder.append("\n type: " + typeAmount.type + "  -amount: "+typeAmount.amount+"\n");
         }
         return builder.toString();
         }catch( NullPointerException e){

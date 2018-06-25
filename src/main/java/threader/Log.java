@@ -65,12 +65,13 @@ public class Log {
         while(iterator.hasNext()){
             String filename = (String) iterator.next();
             Data[] dataArr = theseResults.get(filename);
-            builder.append(filename + "\n");
+            builder.append(filename + "\n\n");
             for (Data data : dataArr ){
                 builder.append(data.toString());
             }
-            builder.append("\n\n\n\n");
+            builder.append("\nn");
         }
+
         FileHelper.WriteFile("./results/results.all"+numFilesDone,builder.toString());
 
     }
