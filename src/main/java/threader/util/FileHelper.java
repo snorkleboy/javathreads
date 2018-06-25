@@ -27,6 +27,7 @@ public class FileHelper {
             File file = FileHelper.getFile(path);
             BufferedWriter writer = new BufferedWriter(new FileWriter(file));
             writer.write(toPrint);
+            writer.close();
         }catch (IOException e){
             System.out.println(e);
         }

@@ -1,0 +1,196 @@
+CITY: Hornsey-TYPEAMOUNTS:
+ type: other Ghost  -amount: 49
+ type: unHoly Ghost  -amount: 52
+ type: Holy Ghosty  -amount: 45
+ type: Store  -amount: 46
+ type: store  -amount: 51CITY: Braedon-TYPEAMOUNTS:
+ type: other Ghost  -amount: 113
+ type: Holy Ghosty  -amount: 101
+ type: unHoly Ghost  -amount: 109
+ type: Store  -amount: 110
+ type: store  -amount: 89CITY: Kilmarnock-TYPEAMOUNTS:
+ type: other Ghost  -amount: 55
+ type: unHoly Ghost  -amount: 54
+ type: Holy Ghosty  -amount: 52
+ type: Store  -amount: 35
+ type: store  -amount: 53CITY: Fool's March -TYPEAMOUNTS:
+ type: other Ghost  -amount: 46
+ type: unHoly Ghost  -amount: 42
+ type: Holy Ghosty  -amount: 38
+ type: Store  -amount: 52
+ type: store  -amount: 49CITY: Kirkwall-TYPEAMOUNTS:
+ type: other Ghost  -amount: 48
+ type: unHoly Ghost  -amount: 58
+ type: Holy Ghosty  -amount: 50
+ type: Store  -amount: 44
+ type: store  -amount: 62CITY: Romsey-TYPEAMOUNTS:
+ type: other Ghost  -amount: 53
+ type: Holy Ghosty  -amount: 47
+ type: unHoly Ghost  -amount: 41
+ type: Store  -amount: 43
+ type: store  -amount: 63CITY: Travercraig-TYPEAMOUNTS:
+ type: other Ghost  -amount: 49
+ type: Holy Ghosty  -amount: 57
+ type: unHoly Ghost  -amount: 51
+ type: Store  -amount: 42
+ type: store  -amount: 55CITY: Findochty-TYPEAMOUNTS:
+ type: other Ghost  -amount: 52
+ type: Holy Ghosty  -amount: 51
+ type: unHoly Ghost  -amount: 52
+ type: Store  -amount: 60
+ type: store  -amount: 51CITY: Goulcrest -TYPEAMOUNTS:
+ type: other Ghost  -amount: 52
+ type: Holy Ghosty  -amount: 61
+ type: unHoly Ghost  -amount: 47
+ type: Store  -amount: 52
+ type: store  -amount: 48CITY: Cappadocia-TYPEAMOUNTS:
+ type: other Ghost  -amount: 53
+ type: Holy Ghosty  -amount: 57
+ type: unHoly Ghost  -amount: 51
+ type: Store  -amount: 58
+ type: store  -amount: 48CITY: Farnworth-TYPEAMOUNTS:
+ type: other Ghost  -amount: 44
+ type: Holy Ghosty  -amount: 60
+ type: unHoly Ghost  -amount: 38
+ type: Store  -amount: 39
+ type: store  -amount: 53CITY: Falkirk-TYPEAMOUNTS:
+ type: other Ghost  -amount: 45
+ type: unHoly Ghost  -amount: 36
+ type: Holy Ghosty  -amount: 50
+ type: Store  -amount: 56
+ type: store  -amount: 37CITY: Deathfall -TYPEAMOUNTS:
+ type: other Ghost  -amount: 39
+ type: unHoly Ghost  -amount: 60
+ type: Holy Ghosty  -amount: 44
+ type: Store  -amount: 42
+ type: store  -amount: 52CITY: Jongvale -TYPEAMOUNTS:
+ type: other Ghost  -amount: 50
+ type: Holy Ghosty  -amount: 47
+ type: unHoly Ghost  -amount: 58
+ type: Store  -amount: 49
+ type: store  -amount: 65CITY: Balerno-TYPEAMOUNTS:
+ type: other Ghost  -amount: 32
+ type: unHoly Ghost  -amount: 50
+ type: Holy Ghosty  -amount: 44
+ type: Store  -amount: 52
+ type: store  -amount: 53CITY: Scrabster-TYPEAMOUNTS:
+ type: other Ghost  -amount: 51
+ type: Holy Ghosty  -amount: 45
+ type: unHoly Ghost  -amount: 44
+ type: Store  -amount: 49
+ type: store  -amount: 46CITY: Polperro-TYPEAMOUNTS:
+ type: other Ghost  -amount: 57
+ type: unHoly Ghost  -amount: 34
+ type: Holy Ghosty  -amount: 53
+ type: Store  -amount: 32
+ type: store  -amount: 52CITY: Blencathra-TYPEAMOUNTS:
+ type: other Ghost  -amount: 53
+ type: unHoly Ghost  -amount: 45
+ type: Holy Ghosty  -amount: 50
+ type: Store  -amount: 55
+ type: store  -amount: 45CITY: Ballingsmallard-TYPEAMOUNTS:
+ type: other Ghost  -amount: 49
+ type: unHoly Ghost  -amount: 59
+ type: Holy Ghosty  -amount: 49
+ type: Store  -amount: 45
+ type: store  -amount: 49CITY: Pantmawr-TYPEAMOUNTS:
+ type: other Ghost  -amount: 55
+ type: Holy Ghosty  -amount: 47
+ type: unHoly Ghost  -amount: 43
+ type: Store  -amount: 48
+ type: store  -amount: 62CITY: Blencogo-TYPEAMOUNTS:
+ type: other Ghost  -amount: 49
+ type: unHoly Ghost  -amount: 53
+ type: Holy Ghosty  -amount: 53
+ type: Store  -amount: 48
+ type: store  -amount: 52CITY: Halivaara-TYPEAMOUNTS:
+ type: other Ghost  -amount: 39
+ type: Holy Ghosty  -amount: 39
+ type: unHoly Ghost  -amount: 48
+ type: Store  -amount: 47
+ type: store  -amount: 46CITY: Threlkeld-TYPEAMOUNTS:
+ type: other Ghost  -amount: 56
+ type: unHoly Ghost  -amount: 44
+ type: Holy Ghosty  -amount: 58
+ type: Store  -amount: 40
+ type: store  -amount: 46CITY: Woodhaerst-TYPEAMOUNTS:
+ type: other Ghost  -amount: 59
+ type: unHoly Ghost  -amount: 57
+ type: Holy Ghosty  -amount: 66
+ type: Store  -amount: 46
+ type: store  -amount: 58CITY: Emall-TYPEAMOUNTS:
+ type: other Ghost  -amount: 50
+ type: unHoly Ghost  -amount: 45
+ type: Holy Ghosty  -amount: 45
+ type: Store  -amount: 40
+ type: store  -amount: 59CITY: Grimsby-TYPEAMOUNTS:
+ type: other Ghost  -amount: 48
+ type: unHoly Ghost  -amount: 53
+ type: Holy Ghosty  -amount: 50
+ type: Store  -amount: 52
+ type: store  -amount: 57CITY: Ferncombe-TYPEAMOUNTS:
+ type: other Ghost  -amount: 59
+ type: unHoly Ghost  -amount: 53
+ type: Holy Ghosty  -amount: 63
+ type: Store  -amount: 47
+ type: store  -amount: 54CITY: Carningsby-TYPEAMOUNTS:
+ type: other Ghost  -amount: 56
+ type: Holy Ghosty  -amount: 53
+ type: unHoly Ghost  -amount: 47
+ type: Store  -amount: 52
+ type: store  -amount: 50CITY: Colchester-TYPEAMOUNTS:
+ type: other Ghost  -amount: 46
+ type: Holy Ghosty  -amount: 46
+ type: unHoly Ghost  -amount: 65
+ type: Store  -amount: 46
+ type: store  -amount: 55CITY: Wimborne-TYPEAMOUNTS:
+ type: other Ghost  -amount: 55
+ type: unHoly Ghost  -amount: 49
+ type: Holy Ghosty  -amount: 51
+ type: Store  -amount: 60
+ type: store  -amount: 55CITY: Leeside -TYPEAMOUNTS:
+ type: other Ghost  -amount: 53
+ type: Holy Ghosty  -amount: 47
+ type: unHoly Ghost  -amount: 45
+ type: Store  -amount: 48
+ type: store  -amount: 55CITY: Rochdale-TYPEAMOUNTS:
+ type: other Ghost  -amount: 49
+ type: Holy Ghosty  -amount: 38
+ type: unHoly Ghost  -amount: 45
+ type: Store  -amount: 51
+ type: store  -amount: 56CITY: Bamborourgh-TYPEAMOUNTS:
+ type: other Ghost  -amount: 52
+ type: unHoly Ghost  -amount: 49
+ type: Holy Ghosty  -amount: 36
+ type: Store  -amount: 49
+ type: store  -amount: 44CITY: Caerdydd-TYPEAMOUNTS:
+ type: other Ghost  -amount: 54
+ type: Holy Ghosty  -amount: 40
+ type: unHoly Ghost  -amount: 57
+ type: Store  -amount: 43
+ type: store  -amount: 56CITY: Kincardine-TYPEAMOUNTS:
+ type: other Ghost  -amount: 55
+ type: unHoly Ghost  -amount: 43
+ type: Holy Ghosty  -amount: 40
+ type: Store  -amount: 57
+ type: store  -amount: 46CITY: Wavemeet -TYPEAMOUNTS:
+ type: other Ghost  -amount: 44
+ type: Holy Ghosty  -amount: 56
+ type: unHoly Ghost  -amount: 52
+ type: Store  -amount: 45
+ type: store  -amount: 54CITY: Penzance-TYPEAMOUNTS:
+ type: other Ghost  -amount: 48
+ type: Holy Ghosty  -amount: 59
+ type: unHoly Ghost  -amount: 44
+ type: Store  -amount: 53
+ type: store  -amount: 40CITY: Garthram-TYPEAMOUNTS:
+ type: other Ghost  -amount: 60
+ type: Holy Ghosty  -amount: 51
+ type: unHoly Ghost  -amount: 57
+ type: Store  -amount: 44
+ type: store  -amount: 57CITY: Ascot-TYPEAMOUNTS:
+ type: other Ghost  -amount: 48
+ type: unHoly Ghost  -amount: 51
+ type: Holy Ghosty  -amount: 47
+ type: Store  -amount: 66
+ type: store  -amount: 42

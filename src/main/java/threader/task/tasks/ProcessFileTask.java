@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import threader.dataClasss.Data;
 import threader.dataClasss.Location;
 import threader.task.Task;
+import threader.util.FileHelper;
 
 import java.io.*;
 
@@ -22,10 +23,17 @@ public class ProcessFileTask extends Task {
             while (in.ready()) {
                 builder.append(in.readLine());
             }
+            in.close();
 //            System.out.println(builder.toString());
             try{
                 Location[] locations = Location.ParseLocations(builder.toString());
                 Data[] dataArr = Location.extractData(locations);
+                StringBuffer resultBuilder = new StringBuffer();
+                for(Data data : dataArr){
+                    resultBuilder.append(data.toString());
+                }
+                String path = "./processed/" +fileToProcess.getName().replace(".json",".processed");
+                FileHelper.WriteFile(path, resultBuilder.toString());
                 log.logResults(fileToProcess.toString(),dataArr);
 
 
