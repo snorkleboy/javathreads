@@ -3,6 +3,7 @@ package threader.task.tasks;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import threader.task.Task;
+import threader.util.FileHelper;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -35,7 +36,7 @@ public class DirectoryScanTask extends Task {
         new DirectoryScanTask(path, regex);
     }
     protected File[] getFiles(){
-        File[] files =  new java.io.File(path).listFiles(new FileFilter(){
+        File[] files = FileHelper.getFile(path).listFiles(new FileFilter(){
             @Override
             public boolean accept(File file) {
                 final Pattern p = Pattern.compile(regex);

@@ -9,7 +9,6 @@ public class TaskQueue {
 
     public static Task poll(){
         Task task =  queue.poll();
-        System.out.println(task.time + "   " +  (task.time-(int)System.currentTimeMillis()));
         return task;
     }
 

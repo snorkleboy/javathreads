@@ -1,7 +1,5 @@
 package threader;
-
 import threader.task.tasks.DirectoryScanTask;
-import threader.task.tasks.MakeJsonTask;
 import threader.task.tasks.QueueCheckTask;
 
 public class Main {

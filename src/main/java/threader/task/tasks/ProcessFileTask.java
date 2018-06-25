@@ -32,6 +32,7 @@ public class ProcessFileTask extends Task {
                 for(Data data : dataArr){
                     resultBuilder.append(data.toString() + "\n\n");
                 }
+                //async
                 new Task(()->{
                     String path = "./processed/" +fileToProcess.getName().replace(".json",".processed");
                     FileHelper.WriteFile(path, resultBuilder.toString());
