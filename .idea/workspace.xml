@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5626208-aba2-4979-9882-1ae05fa18161" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/goal" beforeDir="false" afterPath="$PROJECT_DIR$/goal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threader/task/thens/Thenable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threader/task/thens/Thenable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +23,7 @@
         <counts>
           <entry key="all10" value="2" />
           <entry key="gitignore" value="28" />
-          <entry key="goal" value="971" />
+          <entry key="goal" value="1065" />
           <entry key="java" value="21690" />
           <entry key="json" value="154" />
           <entry key="txt" value="32" />
@@ -35,7 +34,7 @@
         <counts>
           <entry key="JAVA" value="21690" />
           <entry key="JSON" value="154" />
-          <entry key="PLAIN_TEXT" value="1033" />
+          <entry key="PLAIN_TEXT" value="1127" />
           <entry key="XML" value="25" />
         </counts>
       </usages-collector>
@@ -114,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/thens/Thenable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -123,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+            <state relative-caret-position="45">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -453,7 +452,7 @@
         <observation name="typedSelect" value="423.0" />
       </dailyData>
       <dailyData date="24-6-2018">
-        <observation name="cancelled" value="4755.0" />
+        <observation name="cancelled" value="4821.0" />
         <observation name="explicitSelect" value="595.0" />
         <observation name="typedSelect" value="1021.0" />
       </dailyData>
@@ -471,7 +470,7 @@
         <observation name="count" value="2247.0" />
       </dailyData>
       <dailyData date="24-6-2018">
-        <observation name="count" value="6371.0" />
+        <observation name="count" value="6437.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -945,7 +944,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529906768535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529907208766" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1311,15 +1310,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threader/task/thens/Thenable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+        <state relative-caret-position="45">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,7 @@
+
+
 //new Task(()->{
-//        SynchInt doneNum = 0;
+//        SynchInt doneNum = new SynchInt(0);
 //        File[] files = getFiles()
 //        Locations[] locations = new Synchlocations()
 //        for(File[] file: files){
@@ -9,11 +11,11 @@
 //                doneNum++;
 //            }
 //        }
-//        doneNum.Awken(Thread.currentThread(),getFiles().length)
+//        doneNum.Awken(Thread.currentThread(),getFiles().length, timeout);writeFiles(locations);
 //        ||
 //        doneNum.upon(getFiles().length,()->{
-//            writeFiles(locations);
-//        })
+//            writeFiles(locations); //possible not ran, memory leak?
+//        });
 //
 //})
 ===========
