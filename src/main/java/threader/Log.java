@@ -1,15 +1,22 @@
 package threader;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import threader.dataClasss.Data;
 import threader.task.TaskQueue;
 import threader.util.FileHelper;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 public class Log {
     static private Hashtable<String, ArrayList<String>> threadToLogsMap = new Hashtable<String, ArrayList<String>>();
     static private Hashtable<String, Data[]> threadToResults = new Hashtable<String, Data[]>();
     static public int numFilesDone = 0;
+    static public int batchPrint = 10;
     public static void log(String threadName, String message){
         if (!threadToLogsMap.containsKey(threadName)){
             threadToLogsMap.put(threadName, new ArrayList<String>());
@@ -47,7 +54,7 @@ public class Log {
         if (threadToResults.putIfAbsent(file,data) == null){
             numFilesDone++;
 
-             if(numFilesDone %5 == 0){
+             if(numFilesDone %batchPrint == 0){
                  printResutls();
              }
         }else{
@@ -56,24 +63,37 @@ public class Log {
 
     }
     public static void printResutls(){
-        Hashtable<String, Data[]> theseResults = threadToResults;
-        threadToResults = new Hashtable<String, Data[]>();
-        Set keys = theseResults.keySet();
-        Iterator iterator = keys.iterator();
-        StringBuffer builder = new StringBuffer();
-
-        while(iterator.hasNext()){
-            String filename = (String) iterator.next();
-            Data[] dataArr = theseResults.get(filename);
-            builder.append(filename + "\n\n");
-            for (Data data : dataArr ){
-                builder.append(data.toString());
+//        Hashtable<String, Data[]> theseResults = threadToResults;
+//        threadToResults = new Hashtable<String, Data[]>();
+//        Set keys = theseResults.keySet();
+//        Iterator iterator = keys.iterator();
+//        StringBuffer builder = new StringBuffer();
+//
+//        while(iterator.hasNext()){
+//            String filename = (String) iterator.next();
+//            Data[] dataArr = theseResults.get(filename);
+//            builder.append(filename + "\n\n");
+//            for (Data data : dataArr ){
+//                builder.append(data.toString());
+//            }
+//            builder.append("\n");
+//        }
+//        FileHelper.WriteFile("./results/results.all"+numFilesDone,builder.toString());
+        if (threadToResults.size() > 0){
+            ObjectMapper mapper = new ObjectMapper();
+            ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
+            try{
+                Hashtable<String, Data[]> theseResults = threadToResults;
+                threadToResults = new Hashtable<String, Data[]>();
+                File file = FileHelper.getFile("./results/results."+numFilesDone+".json");
+                writer.writeValue(file,theseResults);
+            }catch (JsonProcessingException e){
+                System.out.println("CANT SERIALIZE MY OWN OBJECTS");
+                System.out.println(e);
+            }catch (IOException e){
+                System.out.println(e);
             }
-            builder.append("\nn");
         }
-
-        FileHelper.WriteFile("./results/results.all"+numFilesDone,builder.toString());
-
     }
 
     private static ArrayList<String[]> getLines(){

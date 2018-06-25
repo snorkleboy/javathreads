@@ -67,14 +67,14 @@ public class Location {
         return location;
     };
     public Location(JsonNode json){
-        name = json.get("name").textValue();
-        city = json.get("name").textValue();;
-        type = json.get("name").textValue();;
+        name = json.get("name").textValue().toLowerCase();
+        city = json.get("city").textValue().toLowerCase();;
+        type = json.get("type").textValue().toLowerCase();;
     }
     public Location(String namein, String cityin, String typein){
-        name = namein;
-        city = cityin;
-        type = typein;
+        name = namein.toLowerCase();
+        city = cityin.toLowerCase();
+        type = typein.toLowerCase();
     }
     public static Data[] extractData(Location[] locations){
         HashMap<String,Data> dataCollection = new HashMap<>();

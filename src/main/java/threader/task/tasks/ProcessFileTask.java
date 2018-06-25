@@ -30,11 +30,11 @@ public class ProcessFileTask extends Task {
                 Data[] dataArr = Location.extractData(locations);
                 StringBuffer resultBuilder = new StringBuffer();
                 for(Data data : dataArr){
-                    resultBuilder.append(data.toString() + "\n\n");
+                    resultBuilder.append(data.toCSV() + "\n\n");
                 }
                 //async
                 new Task(()->{
-                    String path = "./processed/" +fileToProcess.getName().replace(".json",".processed");
+                    String path = "./processed/" +fileToProcess.getName().replace(".json",".csv");
                     FileHelper.WriteFile(path, resultBuilder.toString());
                     fileToProcess.renameTo(FileHelper.getFile("./processed/"+fileToProcess.getName()));
                     log.logResults(fileToProcess.toString(),dataArr);
