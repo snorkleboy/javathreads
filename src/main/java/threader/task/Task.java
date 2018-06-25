@@ -27,7 +27,7 @@ public class Task implements Runnable{
     public void run(){
         lam.run();
     }
-    protected void sleep(int time){
+    protected static void sleep(int time){
         try{
             Thread.sleep(time);
         }catch (InterruptedException e) {

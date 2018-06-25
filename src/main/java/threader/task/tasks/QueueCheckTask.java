@@ -3,9 +3,13 @@ package threader.task.tasks;
 import threader.task.Task;
 
 public class QueueCheckTask extends Task {
-    public QueueCheckTask(boolean notSupered){
+    public QueueCheckTask(Boolean enqueue){
+
     }
     public void run(){
+        runStatic();
+    }
+    public static void runStatic(){
         while(true){
             log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " poll queue");
             Task task = queue.poll();

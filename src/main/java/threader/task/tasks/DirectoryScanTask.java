@@ -26,13 +26,14 @@ public class DirectoryScanTask extends Task {
     }
     public void run(){
         log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " search directory");
-
+        log.print();
         File[] files = getFiles();
         if (files.length > 0){
             queueProccessing(files);
         }
-        log.print();
         sleep((int)Math.random()*500 + 500);
+        while (queue.hasTasks()){
+        }
         new DirectoryScanTask(path, regex);
     }
     protected File[] getFiles(){

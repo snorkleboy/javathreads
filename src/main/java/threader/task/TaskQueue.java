@@ -11,6 +11,9 @@ public class TaskQueue {
         Task task =  queue.poll();
         return task;
     }
+    public static Boolean hasTasks(){
+        return queue.peek() != null;
+    }
 
 
     public static void add(Task task){
