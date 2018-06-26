@@ -4,11 +4,9 @@ import threader.Log;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
 
 public class TaskQueue {
-    public final static LinkedBlockingQueue<Task> queue = new LinkedBlockingQueue<>();
+    public final static Queue<Task> queue = new ConcurrentLinkedQueue<Task>();
     private static ConcurrentLinkedQueue<Thread> threadlist = new ConcurrentLinkedQueue<Thread>();
     private static ConcurrentLinkedQueue<Thread> waitlist = new ConcurrentLinkedQueue<Thread>();
 
@@ -43,19 +41,41 @@ public class TaskQueue {
     }
     public static void add(Task task){
         queue.add(task);
+        Thread thread = waitlist.poll() ;
+        if(thread != null){
+            synchronized (thread){
+                thread.notify();
+            }
+        }
+
     }
     public static void checkTasks(){
         while(true){
             log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " poll queue");
-            try{
-                System.out.println(Thread.currentThread().getName() + " poll queue     waiting:" + waitlist.size());
-                Task task = queue.poll();
-                if (task != null) {
+            Task task = queue.poll();
+            if (task != null){
+                try{
                     task.run();
+                }catch(NullPointerException e){
+                    System.out.println(e);
+                    e.printStackTrace();
                 }
-            }catch(NullPointerException e){
-                System.out.println(e);
-                e.printStackTrace();
+            }else{
+                System.out.println(Thread.currentThread().getName() + " poll queue     waiting:");
+                try{
+                    Thread thread = Thread.currentThread();
+                    synchronized (thread){
+                        waitlist.add(Thread.currentThread());
+                        log.log(thread.getName(),Thread.currentThread().getName() + " wait indef");
+                        while(true){
+                            System.out.println(thread.getName()+" wait indef");
+                            thread.wait();
+                        }
+                    }
+                }catch (InterruptedException e){
+                    System.out.println(Thread.currentThread().getName()+" AWOKEN");
+                    checkTasks();
+                }
             }
         }
     }

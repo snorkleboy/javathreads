@@ -30,7 +30,7 @@ public class DirectoryScanTask extends Task {
             log.setBatchResultsPrintSize(files.length);
             queueProccessing(files);
         }
-        sleep(2000);
+        sleep(500);
         new DirectoryScanTask(path, regex);
     }
     protected File[] getFiles(){
