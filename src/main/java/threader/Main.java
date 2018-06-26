@@ -8,9 +8,7 @@ import threader.task.tasks.MakeJsonTask;
 
 public class Main {
     public static void main(String[] args) {
-        Task[] initial = {
-                new DirectoryScanTask("./dropbox",".*\\.json")
-        };
-        TaskQueue.spinUp(3, true,initial);
+        new DirectoryScanTask("./dropbox",".*\\.json");
+        TaskQueue.spinUp(3, true);
     }
 }

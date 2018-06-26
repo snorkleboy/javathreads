@@ -15,10 +15,13 @@ public class DirectoryScanTask extends Task {
     String path;
     String regex;
     public DirectoryScanTask(){
+        System.out.println("DIRECTORY SCAN TASK CONSTRUCT");
         path = "./dropbox";
         regex = ".*\\.json";
     }
     public DirectoryScanTask(String searchDirectory, String regexin){
+        System.out.println("DIRECTORY SCAN TASK CONSTRUCT");
+
         path = searchDirectory;
         regex= regexin;
     }
@@ -30,7 +33,7 @@ public class DirectoryScanTask extends Task {
             log.setBatchResultsPrintSize(files.length);
             queueProccessing(files);
         }
-        sleep(500);
+        sleep(1000);
         new DirectoryScanTask(path, regex);
     }
     protected File[] getFiles(){
