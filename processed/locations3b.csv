@@ -1,188 +1,184 @@
 City,Type,Count
-Hornsey,other Ghost,1
-Hornsey,unHoly Ghost,2
+romsey,holy ghosty,2
+romsey,other ghost,2
 
 
 City,Type,Count
-Braedon,unHoly Ghost,1
+caerdydd,unholy ghost,2
 
 
 City,Type,Count
-Fool's March ,other Ghost,1
-Fool's March ,unHoly Ghost,1
-Fool's March ,Store,2
+fool's march ,holy ghosty,1
+fool's march ,store,1
 
 
 City,Type,Count
-Romsey,unHoly Ghost,1
-Romsey,Store,1
-Romsey,store,1
+deathfall ,holy ghosty,1
+deathfall ,unholy ghost,1
+deathfall ,store,1
+deathfall ,other ghost,1
 
 
 City,Type,Count
-Kirkwall,Store,1
-Kirkwall,store,1
+kincardine,other ghost,1
 
 
 City,Type,Count
-Travercraig,other Ghost,1
-Travercraig,Holy Ghosty,1
+blencathra,holy ghosty,1
+blencathra,store,1
 
 
 City,Type,Count
-Findochty,other Ghost,2
-Findochty,Holy Ghosty,2
+falkirk,holy ghosty,1
+falkirk,unholy ghost,1
+falkirk,store,2
 
 
 City,Type,Count
-Goulcrest ,other Ghost,1
-Goulcrest ,Holy Ghosty,1
-Goulcrest ,Store,1
-Goulcrest ,store,2
+kirkwall,holy ghosty,1
+kirkwall,unholy ghost,4
 
 
 City,Type,Count
-Cappadocia,Store,1
-Cappadocia,store,1
+polperro,unholy ghost,2
 
 
 City,Type,Count
-Farnworth,Holy Ghosty,1
+ballingsmallard,holy ghosty,1
+ballingsmallard,other ghost,1
 
 
 City,Type,Count
-Falkirk,Holy Ghosty,2
-Falkirk,unHoly Ghost,1
-Falkirk,Store,2
+ferncombe,holy ghosty,1
 
 
 City,Type,Count
-Deathfall ,Holy Ghosty,1
+halivaara,unholy ghost,1
+halivaara,other ghost,1
 
 
 City,Type,Count
-Balerno,other Ghost,1
-Balerno,Holy Ghosty,1
-Balerno,unHoly Ghost,1
-Balerno,Store,1
+ascot,holy ghosty,1
+ascot,unholy ghost,2
+ascot,store,2
 
 
 City,Type,Count
-Jongvale ,Store,1
-Jongvale ,store,2
+cappadocia,unholy ghost,1
+cappadocia,other ghost,1
 
 
 City,Type,Count
-Polperro,Holy Ghosty,2
+goulcrest ,store,1
 
 
 City,Type,Count
-Scrabster,other Ghost,1
-Scrabster,Holy Ghosty,3
-Scrabster,unHoly Ghost,1
+garthram,holy ghosty,1
 
 
 City,Type,Count
-Blencathra,store,1
+penzance,holy ghosty,2
+penzance,store,1
+penzance,other ghost,1
 
 
 City,Type,Count
-Ballingsmallard,unHoly Ghost,1
+farnworth,holy ghosty,1
+farnworth,other ghost,1
 
 
 City,Type,Count
-Blencogo,unHoly Ghost,1
-Blencogo,Store,2
-Blencogo,store,1
+scrabster,store,2
 
 
 City,Type,Count
-Pantmawr,other Ghost,2
+hornsey,holy ghosty,1
+hornsey,unholy ghost,1
+hornsey,store,1
+hornsey,other ghost,1
 
 
 City,Type,Count
-Halivaara,Store,2
-Halivaara,store,1
+rochdale,unholy ghost,1
+rochdale,store,1
+rochdale,other ghost,3
 
 
 City,Type,Count
-Woodhaerst,unHoly Ghost,2
-Woodhaerst,store,1
+wavemeet ,store,2
 
 
 City,Type,Count
-Threlkeld,other Ghost,2
-Threlkeld,unHoly Ghost,2
-Threlkeld,Holy Ghosty,1
+jongvale ,store,2
+jongvale ,other ghost,1
 
 
 City,Type,Count
-Grimsby,Holy Ghosty,1
-Grimsby,Store,1
+woodhaerst,store,1
+woodhaerst,other ghost,1
 
 
 City,Type,Count
-Emall,unHoly Ghost,1
+pantmawr,unholy ghost,1
+pantmawr,store,1
+pantmawr,other ghost,1
 
 
 City,Type,Count
-Ferncombe,unHoly Ghost,2
-Ferncombe,Store,1
+blencogo,store,3
 
 
 City,Type,Count
-Colchester,unHoly Ghost,1
-Colchester,Holy Ghosty,2
+leeside ,store,1
+leeside ,other ghost,1
 
 
 City,Type,Count
-Carningsby,other Ghost,2
-Carningsby,unHoly Ghost,1
-Carningsby,store,1
+balerno,unholy ghost,1
+balerno,store,3
+balerno,other ghost,1
 
 
 City,Type,Count
-Wimborne,Store,1
-Wimborne,store,1
+carningsby,holy ghosty,1
+carningsby,store,2
 
 
 City,Type,Count
-Leeside ,Holy Ghosty,1
-Leeside ,store,1
+wimborne,holy ghosty,1
 
 
 City,Type,Count
-Rochdale,Holy Ghosty,1
-Rochdale,store,1
+bamborourgh,holy ghosty,1
+bamborourgh,store,3
 
 
 City,Type,Count
-Caerdydd,Holy Ghosty,1
-Caerdydd,Store,1
-Caerdydd,store,2
+kilmarnock,store,2
 
 
 City,Type,Count
-Wavemeet ,unHoly Ghost,2
-Wavemeet ,store,2
+colchester,other ghost,1
 
 
 City,Type,Count
-Kincardine,store,1
+emall,store,2
+emall,other ghost,1
 
 
 City,Type,Count
-Penzance,other Ghost,1
+findochty,store,1
+findochty,other ghost,1
 
 
 City,Type,Count
-Garthram,store,1
+braedon,holy ghosty,1
+braedon,unholy ghost,1
+braedon,store,3
+braedon,other ghost,1
 
 
 City,Type,Count
-Ascot,other Ghost,1
-Ascot,unHoly Ghost,1
-Ascot,Store,1
-Ascot,store,1
+grimsby,unholy ghost,1
 
 

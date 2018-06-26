@@ -1,312 +1,273 @@
 City,Type,Count
-Hornsey,other Ghost,43
-Hornsey,unHoly Ghost,58
-Hornsey,Holy Ghosty,46
-Hornsey,Store,63
-Hornsey,store,47
+romsey,holy ghosty,52
+romsey,unholy ghost,46
+romsey,store,105
+romsey,other ghost,55
 
 
 City,Type,Count
-Braedon,other Ghost,107
-Braedon,unHoly Ghost,101
-Braedon,Holy Ghosty,107
-Braedon,Store,113
-Braedon,store,96
+caerdydd,holy ghosty,49
+caerdydd,unholy ghost,49
+caerdydd,store,110
+caerdydd,other ghost,59
 
 
 City,Type,Count
-Kilmarnock,other Ghost,44
-Kilmarnock,unHoly Ghost,48
-Kilmarnock,Holy Ghosty,40
-Kilmarnock,Store,40
-Kilmarnock,store,49
+fool's march ,holy ghosty,60
+fool's march ,unholy ghost,60
+fool's march ,store,89
+fool's march ,other ghost,48
 
 
 City,Type,Count
-Fool's March ,other Ghost,45
-Fool's March ,unHoly Ghost,45
-Fool's March ,Holy Ghosty,45
-Fool's March ,Store,60
-Fool's March ,store,46
+travercraig,holy ghosty,56
+travercraig,unholy ghost,42
+travercraig,store,104
+travercraig,other ghost,47
 
 
 City,Type,Count
-Kirkwall,other Ghost,52
-Kirkwall,Holy Ghosty,58
-Kirkwall,unHoly Ghost,43
-Kirkwall,Store,43
-Kirkwall,store,50
+deathfall ,holy ghosty,58
+deathfall ,unholy ghost,44
+deathfall ,store,121
+deathfall ,other ghost,50
 
 
 City,Type,Count
-Romsey,other Ghost,45
-Romsey,unHoly Ghost,61
-Romsey,Holy Ghosty,53
-Romsey,Store,39
-Romsey,store,44
+kincardine,holy ghosty,52
+kincardine,unholy ghost,50
+kincardine,store,85
+kincardine,other ghost,44
 
 
 City,Type,Count
-Travercraig,other Ghost,41
-Travercraig,Holy Ghosty,51
-Travercraig,unHoly Ghost,40
-Travercraig,Store,51
-Travercraig,store,44
+blencathra,holy ghosty,43
+blencathra,unholy ghost,45
+blencathra,store,97
+blencathra,other ghost,55
 
 
 City,Type,Count
-Findochty,other Ghost,68
-Findochty,unHoly Ghost,52
-Findochty,Holy Ghosty,49
-Findochty,Store,57
-Findochty,store,63
+falkirk,holy ghosty,56
+falkirk,unholy ghost,45
+falkirk,store,108
+falkirk,other ghost,57
 
 
 City,Type,Count
-Goulcrest ,other Ghost,47
-Goulcrest ,unHoly Ghost,56
-Goulcrest ,Holy Ghosty,52
-Goulcrest ,Store,60
-Goulcrest ,store,50
+kirkwall,holy ghosty,42
+kirkwall,unholy ghost,50
+kirkwall,store,101
+kirkwall,other ghost,52
 
 
 City,Type,Count
-Cappadocia,other Ghost,48
-Cappadocia,Holy Ghosty,55
-Cappadocia,unHoly Ghost,52
-Cappadocia,Store,57
-Cappadocia,store,50
+ballingsmallard,holy ghosty,58
+ballingsmallard,unholy ghost,58
+ballingsmallard,store,108
+ballingsmallard,other ghost,51
 
 
 City,Type,Count
-Farnworth,other Ghost,50
-Farnworth,unHoly Ghost,62
-Farnworth,Holy Ghosty,56
-Farnworth,Store,51
-Farnworth,store,39
+polperro,holy ghosty,44
+polperro,unholy ghost,48
+polperro,store,111
+polperro,other ghost,58
 
 
 City,Type,Count
-Falkirk,other Ghost,46
-Falkirk,unHoly Ghost,58
-Falkirk,Holy Ghosty,39
-Falkirk,Store,41
-Falkirk,store,46
+ferncombe,holy ghosty,37
+ferncombe,unholy ghost,52
+ferncombe,store,99
+ferncombe,other ghost,57
 
 
 City,Type,Count
-Deathfall ,other Ghost,40
-Deathfall ,Holy Ghosty,46
-Deathfall ,unHoly Ghost,41
-Deathfall ,Store,53
-Deathfall ,store,61
+halivaara,holy ghosty,57
+halivaara,unholy ghost,43
+halivaara,store,102
+halivaara,other ghost,60
 
 
 City,Type,Count
-Jongvale ,other Ghost,42
-Jongvale ,unHoly Ghost,60
-Jongvale ,Holy Ghosty,61
-Jongvale ,Store,56
-Jongvale ,store,56
+ascot,holy ghosty,53
+ascot,unholy ghost,55
+ascot,store,98
+ascot,other ghost,62
 
 
 City,Type,Count
-Balerno,other Ghost,51
-Balerno,Holy Ghosty,51
-Balerno,unHoly Ghost,51
-Balerno,Store,47
-Balerno,store,50
+cappadocia,holy ghosty,63
+cappadocia,unholy ghost,52
+cappadocia,store,89
+cappadocia,other ghost,57
 
 
 City,Type,Count
-Polperro,other Ghost,60
-Polperro,unHoly Ghost,45
-Polperro,Holy Ghosty,53
-Polperro,Store,45
-Polperro,store,45
+goulcrest ,holy ghosty,48
+goulcrest ,unholy ghost,53
+goulcrest ,store,101
+goulcrest ,other ghost,56
 
 
 City,Type,Count
-Scrabster,other Ghost,45
-Scrabster,Holy Ghosty,51
-Scrabster,unHoly Ghost,41
-Scrabster,Store,48
-Scrabster,store,44
+garthram,holy ghosty,59
+garthram,unholy ghost,51
+garthram,store,98
+garthram,other ghost,45
 
 
 City,Type,Count
-Blencathra,other Ghost,53
-Blencathra,Holy Ghosty,47
-Blencathra,unHoly Ghost,42
-Blencathra,Store,50
-Blencathra,store,41
+penzance,holy ghosty,57
+penzance,unholy ghost,43
+penzance,store,103
+penzance,other ghost,58
 
 
 City,Type,Count
-Ballingsmallard,other Ghost,43
-Ballingsmallard,unHoly Ghost,44
-Ballingsmallard,Holy Ghosty,39
-Ballingsmallard,Store,56
-Ballingsmallard,store,55
+farnworth,holy ghosty,42
+farnworth,unholy ghost,45
+farnworth,store,96
+farnworth,other ghost,48
 
 
 City,Type,Count
-Blencogo,other Ghost,47
-Blencogo,unHoly Ghost,39
-Blencogo,Holy Ghosty,44
-Blencogo,Store,53
-Blencogo,store,48
+scrabster,holy ghosty,50
+scrabster,unholy ghost,43
+scrabster,store,97
+scrabster,other ghost,51
 
 
 City,Type,Count
-Pantmawr,other Ghost,33
-Pantmawr,unHoly Ghost,49
-Pantmawr,Holy Ghosty,46
-Pantmawr,Store,41
-Pantmawr,store,41
+hornsey,holy ghosty,46
+hornsey,unholy ghost,59
+hornsey,store,86
+hornsey,other ghost,68
 
 
 City,Type,Count
-Halivaara,other Ghost,48
-Halivaara,unHoly Ghost,55
-Halivaara,Holy Ghosty,48
-Halivaara,Store,54
-Halivaara,store,56
+wavemeet ,holy ghosty,43
+wavemeet ,unholy ghost,46
+wavemeet ,store,80
+wavemeet ,other ghost,42
 
 
 City,Type,Count
-Threlkeld,other Ghost,47
-Threlkeld,Holy Ghosty,58
-Threlkeld,unHoly Ghost,48
-Threlkeld,Store,45
-Threlkeld,store,61
+rochdale,holy ghosty,53
+rochdale,unholy ghost,56
+rochdale,store,101
+rochdale,other ghost,56
 
 
 City,Type,Count
-Woodhaerst,other Ghost,42
-Woodhaerst,Holy Ghosty,44
-Woodhaerst,unHoly Ghost,52
-Woodhaerst,Store,52
-Woodhaerst,store,46
+woodhaerst,holy ghosty,44
+woodhaerst,unholy ghost,47
+woodhaerst,store,98
+woodhaerst,other ghost,38
 
 
 City,Type,Count
-Emall,other Ghost,52
-Emall,unHoly Ghost,33
-Emall,Holy Ghosty,38
-Emall,Store,49
-Emall,store,40
+jongvale ,holy ghosty,36
+jongvale ,unholy ghost,37
+jongvale ,store,104
+jongvale ,other ghost,47
 
 
 City,Type,Count
-Ferncombe,other Ghost,50
-Ferncombe,unHoly Ghost,48
-Ferncombe,Holy Ghosty,54
-Ferncombe,Store,46
-Ferncombe,store,51
+pantmawr,holy ghosty,53
+pantmawr,unholy ghost,48
+pantmawr,store,96
+pantmawr,other ghost,44
 
 
 City,Type,Count
-Grimsby,other Ghost,71
-Grimsby,Holy Ghosty,58
-Grimsby,unHoly Ghost,62
-Grimsby,Store,53
-Grimsby,store,52
+blencogo,holy ghosty,51
+blencogo,unholy ghost,44
+blencogo,store,93
+blencogo,other ghost,56
 
 
 City,Type,Count
-Colchester,other Ghost,59
-Colchester,Holy Ghosty,62
-Colchester,unHoly Ghost,45
-Colchester,Store,58
-Colchester,store,53
+leeside ,holy ghosty,57
+leeside ,unholy ghost,51
+leeside ,store,96
+leeside ,other ghost,41
 
 
 City,Type,Count
-Carningsby,other Ghost,43
-Carningsby,unHoly Ghost,50
-Carningsby,Holy Ghosty,52
-Carningsby,Store,59
-Carningsby,store,43
+carningsby,holy ghosty,57
+carningsby,unholy ghost,54
+carningsby,store,88
+carningsby,other ghost,42
 
 
 City,Type,Count
-Wimborne,other Ghost,49
-Wimborne,Holy Ghosty,54
-Wimborne,unHoly Ghost,58
-Wimborne,Store,49
-Wimborne,store,64
+balerno,holy ghosty,50
+balerno,unholy ghost,36
+balerno,store,107
+balerno,other ghost,47
 
 
 City,Type,Count
-Leeside ,other Ghost,48
-Leeside ,unHoly Ghost,47
-Leeside ,Holy Ghosty,47
-Leeside ,Store,55
-Leeside ,store,63
+wimborne,holy ghosty,42
+wimborne,unholy ghost,47
+wimborne,store,96
+wimborne,other ghost,42
 
 
 City,Type,Count
-Rochdale,other Ghost,51
-Rochdale,Holy Ghosty,64
-Rochdale,unHoly Ghost,50
-Rochdale,Store,47
-Rochdale,store,44
+bamborourgh,holy ghosty,58
+bamborourgh,unholy ghost,50
+bamborourgh,store,130
+bamborourgh,other ghost,51
 
 
 City,Type,Count
-Bamborourgh,other Ghost,49
-Bamborourgh,unHoly Ghost,47
-Bamborourgh,Holy Ghosty,45
-Bamborourgh,Store,46
-Bamborourgh,store,49
+kilmarnock,holy ghosty,54
+kilmarnock,unholy ghost,54
+kilmarnock,store,84
+kilmarnock,other ghost,47
 
 
 City,Type,Count
-Caerdydd,other Ghost,49
-Caerdydd,Holy Ghosty,53
-Caerdydd,unHoly Ghost,53
-Caerdydd,Store,56
-Caerdydd,store,60
+colchester,holy ghosty,49
+colchester,unholy ghost,45
+colchester,store,108
+colchester,other ghost,68
 
 
 City,Type,Count
-Kincardine,other Ghost,50
-Kincardine,unHoly Ghost,43
-Kincardine,Holy Ghosty,58
-Kincardine,Store,42
-Kincardine,store,53
+threlkeld,holy ghosty,48
+threlkeld,unholy ghost,42
+threlkeld,store,111
+threlkeld,other ghost,37
 
 
 City,Type,Count
-Wavemeet ,other Ghost,42
-Wavemeet ,unHoly Ghost,44
-Wavemeet ,Holy Ghosty,58
-Wavemeet ,Store,51
-Wavemeet ,store,47
+emall,holy ghosty,55
+emall,unholy ghost,53
+emall,store,89
+emall,other ghost,41
 
 
 City,Type,Count
-Penzance,other Ghost,49
-Penzance,unHoly Ghost,53
-Penzance,Holy Ghosty,43
-Penzance,Store,52
-Penzance,store,47
+findochty,holy ghosty,56
+findochty,unholy ghost,55
+findochty,store,96
+findochty,other ghost,51
 
 
 City,Type,Count
-Garthram,other Ghost,52
-Garthram,unHoly Ghost,55
-Garthram,Holy Ghosty,58
-Garthram,Store,44
-Garthram,store,48
+braedon,holy ghosty,99
+braedon,unholy ghost,109
+braedon,store,211
+braedon,other ghost,93
 
 
 City,Type,Count
-Ascot,other Ghost,67
-Ascot,unHoly Ghost,42
-Ascot,Holy Ghosty,41
-Ascot,Store,69
-Ascot,store,42
+grimsby,holy ghosty,38
+grimsby,unholy ghost,54
+grimsby,store,86
+grimsby,other ghost,51
 
 

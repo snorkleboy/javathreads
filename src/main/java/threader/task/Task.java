@@ -20,6 +20,7 @@ public class Task implements Runnable{
         queue.add(this);
     }
     public Task(Runnable lambda, int timeTo){
+        System.out.println("NEW TASK  " + Thread.currentThread().getName() + "     " + queue.hasTasks());
         lam = lambda;
         time = (int)System.currentTimeMillis() + timeTo;
         queue.add(this);

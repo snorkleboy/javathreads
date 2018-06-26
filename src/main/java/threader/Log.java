@@ -15,8 +15,11 @@ import java.util.*;
 public class Log {
     static private Hashtable<String, ArrayList<String>> threadToLogsMap = new Hashtable<String, ArrayList<String>>();
     static private Hashtable<String, Data[]> threadToResults = new Hashtable<String, Data[]>();
-    static public int numFilesDone = 0;
-    static public int batchPrint = 10;
+    static private int numFilesDone = 0;
+    static private int batchPrint = 10;
+    static public void setBatchResultsPrintSize(int num){
+        batchPrint = num;
+    }
     public static void log(String threadName, String message){
         if (!threadToLogsMap.containsKey(threadName)){
             threadToLogsMap.put(threadName, new ArrayList<String>());
@@ -53,13 +56,11 @@ public class Log {
     public static void logResults(String file, Data[] data){
         if (threadToResults.putIfAbsent(file,data) == null){
             numFilesDone++;
-
-
-             if(numFilesDone %batchPrint == 0){
-                 printResults();
-             }
+            if(numFilesDone %batchPrint == 0){
+                printResults();
+            }
         }else{
-            System.out.println("FILE RESULTS BEING LOGGED TWICE!!!, SHOULD NOT HAPPENING YET");
+            System.out.println("FILE RESULTS BEING LOGGED TWICE, SHOULD NOT HAPPENING YET");
         }
 
     }

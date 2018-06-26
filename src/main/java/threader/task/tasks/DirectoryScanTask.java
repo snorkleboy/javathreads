@@ -17,27 +17,20 @@ public class DirectoryScanTask extends Task {
     public DirectoryScanTask(){
         path = "./dropbox";
         regex = ".*\\.json";
-//        queue.add(this);
     }
     public DirectoryScanTask(String searchDirectory, String regexin){
         path = searchDirectory;
         regex= regexin;
-//        queue.add(this);
     }
     public void run(){
         log.log(Thread.currentThread().getName(),Thread.currentThread().getName() + " search directory");
-        while (queue.hasTasks()){
-            queue.checkTasks();
-            log.print();
-        }
         log.print();
         File[] files = getFiles();
         if (files.length > 0){
+            log.setBatchResultsPrintSize(files.length);
             queueProccessing(files);
         }
-
-
-        sleep(3000);
+        sleep(2000);
         new DirectoryScanTask(path, regex);
     }
     protected File[] getFiles(){
